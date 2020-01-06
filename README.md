@@ -15,19 +15,29 @@
 افتح ال انسبيكت بيج واذهب الى الكونسل واعمل رن للاكواد التالية بالترتيب واحد تلو الاخر. 
 
 
- 1-   var script = document.createElement('script');
-      script.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js";
-      document.getElementsByTagName('head')[0].appendChild(script);
 
-2-    var urls = $('.rg_di .rg_meta').map(function() { return JSON.parse($(this).text()).ou; });
+```javascript
+var script = document.createElement('script');
+script.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js";
+document.getElementsByTagName('head')[0].appendChild(script);
+```
 
-3-    var textToSave = urls.toArray().join('\n');
+
+```javascript
+var urls = $('.rg_di .rg_meta').map(function() { return JSON.parse($(this).text()).ou; });
+```
+
+```javascript
+var textToSave = urls.toArray().join('\n');
       var hiddenElement = document.createElement('a');
       hiddenElement.href = 'data:attachment/text,' + encodeURI(textToSave);
       hiddenElement.target = '_blank';
       hiddenElement.download = 'urls.txt';
       hiddenElement.click();
-      
+```
+
+
+
  ![Repo_List](screenshots/1.jpg)    
    
 (urls.txt) :تأكد من نسخ الاكواد اعلاه بدقه. بعد اتباع الخطوات اعلاه بنجاح سيتم تحميل ملف تكس وسيحمل الاسم التالي
