@@ -28,7 +28,7 @@
       hiddenElement.download = 'urls.txt';
       hiddenElement.click();
       
- ![Image description](link-to-image)     
+ ![Repo_List](screenshots/1.jpg)    
    
 (urls.txt) :تأكد من نسخ الاكواد اعلاه بدقه. بعد اتباع الخطوات اعلاه بنجاح سيتم تحميل ملف تكس وسيحمل الاسم التالي
  ضع الملف المحمل بدلا من الملف الموجود في هذه الريبوسيتري ليتم تحميل صورك المختاره من قوقل.
