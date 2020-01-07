@@ -71,5 +71,10 @@ var textToSave = urls.toArray().join('\n');
  images/my_downloaded_images = الملف الذي سيحتوي على الصور التي تم تحميلها بنجاح <br>
  
  
- سيبدأ البرنامج بتحميل صورك واحدة تلو الاخرى للملف. 
+ سيبدأ البرنامج بتحميل صورك واحدة تلو الاخرى للملف.
+ 
+ 
+ 
+ Check this out: [Pyimagesearch](https://www.pyimagesearch.com/)
+ 
  
