@@ -74,7 +74,10 @@ var textToSave = urls.toArray().join('\n');
  سيبدأ البرنامج بتحميل صورك واحدة تلو الاخرى للملف.
  
  
+ ## References
  
- Check this out: [Pyimagesearch](https://www.pyimagesearch.com/)
+ Check this out: [Pyimagesearch](https://www.pyimagesearch.com/) <br>
+ [My linkedin](https://www.linkedin.com/in/abdullah-fayez-158a00158) <br>
+ [My Twitter](https://twitter.com/Techn_new)
  
  
